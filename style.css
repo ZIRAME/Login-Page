@@ -145,3 +145,176 @@ ul:hover {
     font-size: 45.2px;
     transition: scale 0.2s;
 }
+
+@media screen and (max-width:768px) {
+    body {
+        height: 140vh;
+        background-size: cover;
+        background-position: center;
+        background-image: linear-gradient(rgb(90, 90, 235), rgb(115, 115, 219), rgb(203, 103, 203), rgb(148, 40, 148));
+        text-align: center;
+        font-family: sans-serif;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 50px;
+        margin-left: 0px;
+        background-image: linear-gradient(rgb(203, 103, 203), rgb(148, 40, 148), rgb(90, 90, 235), rgb(115, 115, 219));
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 50px;
+        width: 50vh;
+        height: 70vh;
+        box-sizing: border-box;
+        padding-right: 20px;
+    }
+
+    .page h1 {
+        position: absolute;
+        top: 15%;
+        left: 67%;
+        color: white;
+        font-size: 40px;
+        text-shadow: 3px 2px 5px black;
+    }
+
+    .username {
+        position: relative;
+        left: 162%;
+        bottom: 30%;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        padding-left: 35px;
+        width: 10px;
+    }
+
+    .username input {
+        width: 300px;
+        height: 30px;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 20px;
+        font-size: 24px;
+    }
+
+    .password {
+        position: relative;
+        left: 142%;
+        bottom: 15%;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        padding-left: 35px;
+        width: 10px;
+    }
+
+    .password input {
+        width: 300px;
+        height: 30px;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 20px;
+        font-size: 24px;
+    }
+
+    .forgot {
+        display: flex;
+        position: relative;
+        left: 90%;
+        top: -5%;
+    }
+
+    .forgot a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        transition: scale 0.2s;
+        margin-right: 30%;
+    }
+
+    .forgot a:hover {
+        font-size: 16.3px;
+        width: 365px;
+        scale: 1.05;
+        color: rgb(201, 197, 197);
+    }
+
+    .forgot a:active {
+        scale: 0.95s;
+    }
+
+    h2 a {
+        color: black;
+        border-radius: 20px;
+        margin-left: 45px;
+        margin-right: 40px;
+        font-size: 30px;
+        margin-top: 30px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    h2 a:hover {
+        scale: 1.05;
+        transition: scale 0.2s;
+        background-image: linear-gradient(orange, red);
+        color: white;
+        text-decoration: none;
+    }
+
+    .submit {
+        position: relative;
+        right: 80%;
+        top: 15%;
+    }
+
+    .logindua {
+        color: black;
+        background-color: white;
+        border-radius: 20px;
+        font-size: 34px;
+        width: 300px;
+        height: 50px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: scale 0.5s;
+    }
+
+    .logindua:hover {
+        scale: 1.05;
+        transition: scale 0.5s;
+        background-image: linear-gradient(orange, red);
+        color: white;
+        text-decoration: none;
+    }
+
+    .garis {
+        border: 2px dashed white;
+        margin-left: 55px;
+        margin-right: 50px;
+    }
+
+    .or {
+        color: white;
+    }
+
+    ul:hover {
+        scale: 0.5s;
+    }
+
+    .social-icons {
+        display: flex;
+        position: relative;
+        top: 40%;
+        right: 37.5rem;
+    }
+
+    .social-icons a:hover {
+        color: orange;
+        font-size: 45.2px;
+        transition: scale 0.2s;
+    }
+}
